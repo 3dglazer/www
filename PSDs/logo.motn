@@ -132,7 +132,7 @@
 	<show3DIntersectionAntialiasing>0</show3DIntersectionAntialiasing>
 	<cameraType>0</cameraType>
 	<cameraName>Active Camera</cameraName>
-	<panZoom camera="0" zoom="2" panX="-1.551971435546875" panY="145.72216796875" mode="1" centered="0"/>
+	<panZoom camera="0" zoom="2" panX="62.652679443359375" panY="134.6856689453125" mode="1" centered="0"/>
 </viewer>
 
 <projectPanel>
@@ -212,11 +212,31 @@
 		<parameterColorSpaceID>3</parameterColorSpaceID>
 		<savePreviewMovie>0</savePreviewMovie>
 	</sceneSettings>
+	<exportSettings>
+		<version>1</version>
+		<locationMode>0</locationMode>
+		<resolutionMode>0</resolutionMode>
+		<colorMode>2</colorMode>
+		<premultiplyAlpha>1</premultiplyAlpha>
+		<renderQuality>10</renderQuality>
+		<textRenderQuality>6</textRenderQuality>
+		<useHighQualityResampling>1</useHighQualityResampling>
+		<useShapeAntialiasing>1</useShapeAntialiasing>
+		<use3DIntersectionAntialiasing>1</use3DIntersectionAntialiasing>
+		<fieldRenderingMode>2</fieldRenderingMode>
+		<motionBlurMode>2</motionBlurMode>
+		<frameBlendingMode>2</frameBlendingMode>
+		<camera>0</camera>
+		<lightingMode>2</lightingMode>
+		<shadowsMode>2</shadowsMode>
+		<reflectionsMode>2</reflectionsMode>
+		<depthOfFieldMode>2</depthOfFieldMode>
+	</exportSettings>
 	<publishSettings>
 		<version>2</version>
 	</publishSettings>
 	<currentFrame>135168 153600 1 0</currentFrame>
-	<currentObject>10228</currentObject>
+	<currentObject>11904</currentObject>
 	<activeLayer>10003</activeLayer>
 	<timeRange offset="0 1 1 0" duration="1536000 153600 1 0"/>
 	<playRange offset="0 1 1 0" duration="1536000 153600 1 0"/>
@@ -367,7 +387,7 @@
 				</parameter>
 			</parameter>
 		</scenenode>
-		<scenenode name="---  online portfolio" id="10228" factoryID="15" version="5">
+		<scenenode name="online portfolio" id="10228" factoryID="15" version="5">
 			<paragraphMarginsCached cached="0"/>
 			<scrollMarginsCached cached="0"/>
 			<crawlMarginsCached cached="0"/>
@@ -445,12 +465,7 @@
 					</parameter>
 				</parameter>
 			</style>
-			<styleRun style="10232" offset="0" length="21"/>
-			<object value="45"/>
-			<object value="45"/>
-			<object value="45"/>
-			<object value="32"/>
-			<object value="32"/>
+			<styleRun style="10232" offset="0" length="16"/>
 			<object value="111"/>
 			<object value="110"/>
 			<object value="108"/>
@@ -473,13 +488,13 @@
 			<flags>0</flags>
 			<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
 			<foldFlags>0</foldFlags>
-			<baseFlags>302514193</baseFlags>
+			<baseFlags>34078736</baseFlags>
 			<parameter name="Properties" id="1" flags="8589938704">
 				<parameter name="Transform" id="100" flags="8589938704">
 					<parameter name="Position" id="101" flags="8589938704">
 						<foldFlags>15</foldFlags>
-						<parameter name="X" id="1" flags="8589934608" default="0" value="4.4832916259770883"/>
-						<parameter name="Y" id="2" flags="8589934608" default="0" value="-3.0084686279296546"/>
+						<parameter name="X" id="1" flags="8589934608" default="0" value="31.983291625977088"/>
+						<parameter name="Y" id="2" flags="8589934608" default="0" value="-7.0084686279296546"/>
 					</parameter>
 				</parameter>
 				<parameter name="Lighting" id="230" flags="8589938706">
@@ -503,7 +518,381 @@
 			</parameter>
 			<parameter name="Object" id="2" flags="8589938704">
 				<parameter name="Text" id="369" flags="8590000128">
-					<text>---  online portfolio</text>
+					<text>online portfolio</text>
+				</parameter>
+				<parameter name="Render Text" id="360" flags="8590000146" default="0" value="0"/>
+				<parameter name="Face Camera" id="352" flags="8589934610" default="0" value="0"/>
+				<parameter name="Path Options" id="329" flags="8589938704">
+					<parameter name="Shape Source" id="339" flags="77309476880" default="0" value="0"/>
+					<parameter name="Align to Path" id="333" flags="8589934610" default="1" value="1"/>
+				</parameter>
+			</parameter>
+		</scenenode>
+		<scenenode name="ZDENEK GLAZER copy" id="11904" factoryID="15" version="5">
+			<paragraphMarginsCached cached="0"/>
+			<scrollMarginsCached cached="0"/>
+			<crawlMarginsCached cached="0"/>
+			<host hostID="0"/>
+			<textPathModified textPathModifiedVal="0"/>
+			<paragraphStyle id="11905"/>
+			<style name="Style 1" id="11911" factoryID="1">
+				<font type="0">STHeitiSC-Light</font>
+				<copyFlags>65535</copyFlags>
+				<previewWidth>0</previewWidth>
+				<previewHeight>0</previewHeight>
+				<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+				<baseFlags>8657043504</baseFlags>
+				<foldFlags>524288</foldFlags>
+				<parameter name="Font" id="83" flags="8589938704">
+					<font>STHeitiSC-Light</font>
+					<defaultFont>Helvetica</defaultFont>
+				</parameter>
+				<parameter name="Size" id="3" flags="8589934608" default="48" value="22"/>
+				<parameter name="Face" id="14" flags="8589938704">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Color" id="16" flags="8589938704">
+						<foldFlags>15</foldFlags>
+						<parameter name="Red" id="1" flags="8589934608" default="1" value="0.22641348838806152"/>
+						<parameter name="Green" id="2" flags="8589934608" default="1" value="0.68767404556274414"/>
+						<parameter name="Blue" id="3" flags="8589934608" default="1" value="0"/>
+					</parameter>
+					<parameter name="Texture" id="18" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="85" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+				<parameter name="Drop Shadow" id="21" flags="8589971472">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Texture" id="25" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="88" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+				<parameter name="Outline" id="30" flags="8589971472">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Texture" id="34" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="86" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+				<parameter name="Glow" id="38" flags="8589973520">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Texture" id="42" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="87" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+			</style>
+			<style name="Style" id="11910" factoryID="1">
+				<font type="0">STHeitiSC-Light</font>
+				<copyFlags>65535</copyFlags>
+				<previewWidth>0</previewWidth>
+				<previewHeight>0</previewHeight>
+				<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+				<baseFlags>8657043505</baseFlags>
+				<foldFlags>524288</foldFlags>
+				<parameter name="Font" id="83" flags="8589938704">
+					<font>STHeitiSC-Light</font>
+					<defaultFont>Helvetica</defaultFont>
+				</parameter>
+				<parameter name="Size" id="3" flags="8589934608" default="48" value="22"/>
+				<parameter name="Face" id="14" flags="8589938705">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Color" id="16" flags="8589938704">
+						<foldFlags>15</foldFlags>
+						<parameter name="Red" id="1" flags="8589934608" default="1" value="0.22641348838806152"/>
+						<parameter name="Green" id="2" flags="8589934608" default="1" value="0.68767404556274414"/>
+						<parameter name="Blue" id="3" flags="8589934608" default="1" value="0"/>
+					</parameter>
+					<parameter name="Texture" id="18" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="85" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+				<parameter name="Drop Shadow" id="21" flags="8589971472">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Texture" id="25" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="88" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+				<parameter name="Outline" id="30" flags="8589971472">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Texture" id="34" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="86" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+				<parameter name="Glow" id="38" flags="8589973520">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Texture" id="42" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="87" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+			</style>
+			<style name="Style 2" id="11909" factoryID="1">
+				<font type="0">STHeitiSC-Light</font>
+				<copyFlags>65535</copyFlags>
+				<previewWidth>0</previewWidth>
+				<previewHeight>0</previewHeight>
+				<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+				<baseFlags>8657043504</baseFlags>
+				<foldFlags>524288</foldFlags>
+				<parameter name="Font" id="83" flags="8589938704">
+					<font>STHeitiSC-Light</font>
+					<defaultFont>Helvetica</defaultFont>
+				</parameter>
+				<parameter name="Size" id="3" flags="8589934608" default="48" value="22"/>
+				<parameter name="Face" id="14" flags="8589938704">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Color" id="16" flags="8589938704">
+						<foldFlags>15</foldFlags>
+						<parameter name="Red" id="1" flags="8589934608" default="1" value="0.22641348838806152"/>
+						<parameter name="Green" id="2" flags="8589934608" default="1" value="0.68767404556274414"/>
+						<parameter name="Blue" id="3" flags="8589934608" default="1" value="0"/>
+					</parameter>
+					<parameter name="Texture" id="18" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="85" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+				<parameter name="Drop Shadow" id="21" flags="8589971472">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Texture" id="25" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="88" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+				<parameter name="Outline" id="30" flags="8589971472">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Texture" id="34" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="86" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+				<parameter name="Glow" id="38" flags="8589973520">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Texture" id="42" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="87" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+			</style>
+			<style name="Style 3" id="11908" factoryID="1">
+				<font type="0">STHeitiSC-Light</font>
+				<copyFlags>65535</copyFlags>
+				<previewWidth>0</previewWidth>
+				<previewHeight>0</previewHeight>
+				<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+				<baseFlags>8657043504</baseFlags>
+				<foldFlags>524288</foldFlags>
+				<parameter name="Font" id="83" flags="8589938704">
+					<font>STHeitiSC-Light</font>
+					<defaultFont>Helvetica</defaultFont>
+				</parameter>
+				<parameter name="Size" id="3" flags="8589934608" default="48" value="22"/>
+				<parameter name="Face" id="14" flags="8589938704">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Color" id="16" flags="8589938704">
+						<foldFlags>15</foldFlags>
+						<parameter name="Red" id="1" flags="8589934608" default="1" value="0.22641348838806152"/>
+						<parameter name="Green" id="2" flags="8589934608" default="1" value="0.68767404556274414"/>
+						<parameter name="Blue" id="3" flags="8589934608" default="1" value="0"/>
+					</parameter>
+					<parameter name="Texture" id="18" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="85" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+				<parameter name="Drop Shadow" id="21" flags="8589971472">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Texture" id="25" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="88" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+				<parameter name="Outline" id="30" flags="8589971472">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Texture" id="34" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="86" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+				<parameter name="Glow" id="38" flags="8589973520">
+					<foldFlags>131072</foldFlags>
+					<parameter name="Texture" id="42" flags="8594133008">
+						<parameter name="Image" id="1" flags="77309476880" default="0" value="0"/>
+					</parameter>
+					<parameter name="Source Media" id="87" flags="8590000146">
+						<referencedObjectID></referencedObjectID>
+						<mediaRefFlags>0</mediaRefFlags>
+						<mediaOffset>0 1 1 0</mediaOffset>
+						<defaultMediaRefFlags>0</defaultMediaRefFlags>
+						<defaultMediaOffset>0 1 1 0</defaultMediaOffset>
+						<shortName></shortName>
+					</parameter>
+				</parameter>
+			</style>
+			<styleRun style="11910" offset="0" length="1"/>
+			<styleRun style="11911" offset="1" length="6"/>
+			<styleRun style="11909" offset="7" length="1"/>
+			<styleRun style="11908" offset="8" length="5"/>
+			<object value="90"/>
+			<object value="68"/>
+			<object value="69"/>
+			<object value="78"/>
+			<object value="69"/>
+			<object value="75"/>
+			<object value="32"/>
+			<object value="71"/>
+			<object value="76"/>
+			<object value="65"/>
+			<object value="90"/>
+			<object value="69"/>
+			<object value="82"/>
+			<override>0</override>
+			<aspectRatio>0</aspectRatio>
+			<ignoreBehaviorsBeforeID>0</ignoreBehaviorsBeforeID>
+			<flags>0</flags>
+			<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+			<foldFlags>0</foldFlags>
+			<baseFlags>34078737</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Transform" id="100" flags="8589938704">
+					<parameter name="Position" id="101" flags="8589938704">
+						<foldFlags>15</foldFlags>
+						<parameter name="X" id="1" flags="8589934608" default="0" value="-154.01670837402716"/>
+						<parameter name="Y" id="2" flags="8589934608" default="0" value="-8.5084686279297372"/>
+					</parameter>
+				</parameter>
+				<parameter name="Lighting" id="230" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Shadows" id="234" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Reflection" id="223" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+				<parameter name="Drop Shadow" id="208" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+				<parameter name="Four Corner" id="207" flags="8589971458">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+				<parameter name="Crop" id="216" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Text" id="369" flags="8590000128">
+					<text>ZDENEK GLAZER</text>
 				</parameter>
 				<parameter name="Render Text" id="360" flags="8590000146" default="0" value="0"/>
 				<parameter name="Face Camera" id="352" flags="8589934610" default="0" value="0"/>
@@ -532,7 +921,7 @@
 					<font>STHeitiSC-Light</font>
 					<defaultFont>Helvetica</defaultFont>
 				</parameter>
-				<parameter name="Size" id="3" flags="8589934608" default="48" value="18"/>
+				<parameter name="Size" id="3" flags="8589934608" default="48" value="22"/>
 				<parameter name="Face" id="14" flags="8589938704">
 					<foldFlags>131072</foldFlags>
 					<parameter name="Texture" id="18" flags="8594133008">
@@ -602,7 +991,7 @@
 					<font>STHeitiSC-Light</font>
 					<defaultFont>Helvetica</defaultFont>
 				</parameter>
-				<parameter name="Size" id="3" flags="8589934608" default="48" value="18"/>
+				<parameter name="Size" id="3" flags="8589934608" default="48" value="22"/>
 				<parameter name="Face" id="14" flags="8589938704">
 					<foldFlags>131072</foldFlags>
 					<parameter name="Color" id="16" flags="8589938704">
@@ -678,7 +1067,7 @@
 					<font>STHeitiSC-Light</font>
 					<defaultFont>Helvetica</defaultFont>
 				</parameter>
-				<parameter name="Size" id="3" flags="8589934608" default="48" value="18"/>
+				<parameter name="Size" id="3" flags="8589934608" default="48" value="22"/>
 				<parameter name="Face" id="14" flags="8589938704">
 					<foldFlags>131072</foldFlags>
 					<parameter name="Color" id="16" flags="8589938704">
@@ -754,7 +1143,7 @@
 					<font>STHeitiSC-Light</font>
 					<defaultFont>Helvetica</defaultFont>
 				</parameter>
-				<parameter name="Size" id="3" flags="8589934608" default="48" value="18"/>
+				<parameter name="Size" id="3" flags="8589934608" default="48" value="22"/>
 				<parameter name="Face" id="14" flags="8589938704">
 					<foldFlags>131072</foldFlags>
 					<parameter name="Texture" id="18" flags="8594133008">
@@ -836,12 +1225,13 @@
 			<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
 			<foldFlags>0</foldFlags>
 			<baseFlags>34078736</baseFlags>
+			<enabled>0</enabled>
 			<parameter name="Properties" id="1" flags="8589938704">
 				<parameter name="Transform" id="100" flags="8589938704">
 					<parameter name="Position" id="101" flags="8589938704">
 						<foldFlags>15</foldFlags>
-						<parameter name="X" id="1" flags="8589934608" default="0" value="-152.01670837402716"/>
-						<parameter name="Y" id="2" flags="8589934608" default="0" value="-3.0084686279297363"/>
+						<parameter name="X" id="1" flags="8589934608" default="0" value="-154.01670837402716"/>
+						<parameter name="Y" id="2" flags="8589934608" default="0" value="-8.5084686279297372"/>
 					</parameter>
 				</parameter>
 				<parameter name="Lighting" id="230" flags="8589938706">
