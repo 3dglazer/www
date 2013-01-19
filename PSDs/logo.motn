@@ -236,7 +236,6 @@
 		<version>2</version>
 	</publishSettings>
 	<currentFrame>135168 153600 1 0</currentFrame>
-	<currentObject>11904</currentObject>
 	<activeLayer>10003</activeLayer>
 	<timeRange offset="0 1 1 0" duration="1536000 153600 1 0"/>
 	<playRange offset="0 1 1 0" duration="1536000 153600 1 0"/>
@@ -862,7 +861,7 @@
 			<flags>0</flags>
 			<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
 			<foldFlags>0</foldFlags>
-			<baseFlags>34078737</baseFlags>
+			<baseFlags>34078736</baseFlags>
 			<parameter name="Properties" id="1" flags="8589938704">
 				<parameter name="Transform" id="100" flags="8589938704">
 					<parameter name="Position" id="101" flags="8589938704">
