@@ -497,12 +497,12 @@ section#portfolio ul.folio-list {
 }
 section#portfolio ul.folio-list li {
     float: left;
-    margin-right: 29px;
+    margin-right: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
-    width: 294px;
-    height: 230px;
-    max-height: 250px;
+    width: 450px;
+    height: 253px;
+    max-height: 260px;
 }
 section#portfolio ul.folio-list li .thumb {
     margin: 0 0 5px 0;
