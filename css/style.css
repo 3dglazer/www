@@ -501,16 +501,16 @@ section#portfolio ul.folio-list li {
     margin-bottom: 10px;
     margin-top: 10px;
     width: 400px;
-    height: 225px;
-    max-height: 260px;
+    height: 255px;
+    max-height: 270px;
 }
 section#portfolio ul.folio-list li .thumb {
     margin: 0 0 5px 0;
     padding: 0;
     background: url(../images/thumb-frame.png) no-repeat;
     width: 400px;
-    height: 225px;
-    max-height: 260px;
+    height: 255px;
+    max-height: 270px;
 }
 section#portfolio ul.folio-list li .thumb img {
     margin-top: 18px;
