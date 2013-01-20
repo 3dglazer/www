@@ -502,7 +502,7 @@ section#portfolio ul.folio-list li {
     margin-top: 10px;
     width: 400px;
     height: 245px;
-    max-height: 270px;
+    max-height: 260px;
 }
 section#portfolio ul.folio-list li .thumb {
     margin: 0 0 5px 0;
@@ -510,7 +510,7 @@ section#portfolio ul.folio-list li .thumb {
     background: url(../images/thumb-frame.png) no-repeat;
     width: 400px;
     height: 245px;
-    max-height: 270px;
+    max-height: 260px;
 }
 section#portfolio ul.folio-list li .thumb img {
     margin-top: 18px;
