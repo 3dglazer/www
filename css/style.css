@@ -397,6 +397,7 @@ section#main .row .col h2 {
     margin-bottom: 13px;
     width: 420px;
     height: 234px;
+    background: black;
 }
 .slider-wrapper #slider {
     position: absolute;
